@@ -84,7 +84,7 @@
     height: 10px;
     border-radius: 2px;
 }
-.list h3 {
+ h3 {
     font-size: x-large;
     font-weight: 500;
     margin: 20px;
@@ -122,18 +122,36 @@
     padding: 5px;
 }
 .in-progress {
-    background-color: rgba(86, 204, 242, 0.2);;
+    background-color: rgba(86, 204, 242, 0.2);
     border-radius: 8.5px;
     color: #56CCF2;
+    padding: 5px;
+}
+.inactive {
+    background-color: rgba(235, 87, 87, 0.2);
+    border-radius: 8.5px;
+    color: #EB5757;
     padding: 5px;
 }
 .crc_tx {
     display: flex;
     align-items: center;
+    font-size: 17px;
+    color: rgb(77, 77, 77);
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+
 }
 .crc {
     border-radius: 90%;
     border: 5px solid green;
+    width: 10px;
+    height: 10px;
+}
+.crc_n {
+    border-radius: 90%;
+    border: 5px solid yellow;
     width: 10px;
     height: 10px;
 }
@@ -191,4 +209,7 @@ hr {
     height: 2px;
     width: 100%;
     margin: 10px;
+}
+.text3 {
+    flex: 1;
 }
