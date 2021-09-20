@@ -5,12 +5,22 @@
 
 #container {
     padding: 30px;
+}   
+.lupa {
+    height: 17px;
+    width: 16px;
+    left: 2.5px;
+    top: 2.5px;
+    border-radius: 0px;
+    color: #5B63A9;
 }
-
 .input {
-    color: grey;
+    font-family: Montserrat;
     border: none;
-    width: 200px;
+    width: 400px;
+    font-size: 17px;
+    line-height: 15px;
+    color: #90A0B7;
 }
 
 .right {
@@ -19,5 +29,43 @@
 .avatar {
     border-radius: 90%;
     padding: 2px;
-    border: 2px solid pink;
+    background: linear-gradient(115.67deg, #EDC1D3 7.14%, #91BDEC 99.42%);    
+}
+.main {
+    margin: 30px;
+
+}
+.main h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #1D262C;
+}
+.main input {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 9px;
+
+
+}
+.sp1 {
+    color: rgb(244, 30, 65);
+}
+.text button {
+    background-color: #884CB2;
+    color: white;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    width: 139px;
+    height: 34px;
+    float: left;
+
+
+}
+.sp2 {
+    border: 1.5px solid #FFFFFF;
 }
