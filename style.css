@@ -85,10 +85,12 @@
     margin-left: 10px;
 }
 .sp2 {
-    border: 1.5px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     width: 10px;
     height: 10px;
     border-radius: 2px;
+    padding-right: 3.5px;
+    padding-left: 3.5px;
 }
 h3 {
     font-size: x-large;
